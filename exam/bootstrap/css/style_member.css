@@ -1,0 +1,111 @@
+*{
+  font-family:'Courier New';    
+}
+
+body{
+  background: url("C:/Users/John Michael Amto/Desktop/exam/assets/img/Picture2.png") no-repeat;
+}
+.main{
+  float: right;
+}
+h1{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.dtls {
+display: flex;
+flex-direction: column;
+}
+
+input{
+padding: 5px;
+margin-bottom: 15px;
+background: transparent;
+border: none;
+border-bottom: 1px solid #eee;
+color:#eee;
+}
+
+input:hover{
+  border-color: crimson;
+}
+span{
+  text-align: end;
+}
+
+.main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+padding: 25px;
+
+}
+
+legend, label{
+  color:#eee;
+}
+
+.checkbox{
+  color:white;
+  
+}
+.drop{
+  padding: 10px;
+  align-content: center;
+}
+
+button, .button, .btn-primary{
+  margin: 30px;
+  border: none;
+  color: #eee;
+  background: transparent;
+}
+
+.button :hover, .btn-primary :hover{
+  color:orangered;
+  background: transparent;
+}
+
+/*The following codes is based on the website www.w3schools.com*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+  color:#fff;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+/*The following codes is based on the website www.w3schools.com*/
