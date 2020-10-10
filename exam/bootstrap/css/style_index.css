@@ -83,7 +83,7 @@
 
             /* HOME CODES*/
 .homebg{
-    background: url('C:/Users/John Michael Amto/Documents/VSCode Files/html/Final_Exam/assets/Picture1.jpg') no-repeat ;
+    background: url('https://jmamto.github.io/Amto_WebDev_Finals/exam/assets/img/Picture1.jpg') no-repeat ;
     background-size: cover;
     display: flex;
     flex-direction: column;
